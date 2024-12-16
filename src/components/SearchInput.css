@@ -1,0 +1,25 @@
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper input {
+  padding-left: 30px;
+  border-radius: 5px;
+  margin-right: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.input-wrapper input::placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+
+.input-icon {
+  position: absolute;
+  left: 10px;
+  color: #ccc;
+  font-size: 14px;
+}
